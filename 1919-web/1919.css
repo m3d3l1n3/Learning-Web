@@ -1,0 +1,159 @@
+/*
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+header{
+width: 100%;
+background-color: #1CB7EB;
+}
+div, span, a{
+font-family: 'Zilla Slab Highlight', cursive;
+font-size: 22px;
+color: #eb3461;
+}
+a:hover{
+color:#ebe04b;
+}
+ul{
+	list-style-type: circle;
+}
+#right-text{
+	float: right;
+	display: inline-block;
+}
+header #right-text li{
+	float: left;
+	margin-left: 30px;
+}
+#center-text ul{
+	margin: 0 auto;
+	display: table;
+}
+#center-text{
+width: 50%;
+display: inline-block;
+}
+
+span ul{
+	float: right;
+	position: relative;
+    top: -220px;
+}
+.banner1{
+	width: 100%;
+	margin: 0 auto;
+}
+#Travel-company{
+width: 250px;
+    display: inline-block;
+}
+#connection-panel{
+	text-align: justify;
+	width: 100%;
+	margin: 0;
+	display: inline-block;
+	
+}
+.connections{
+float: right;
+text-float: left;
+padding: 4px;
+background-color: #1cb7eb;
+border: #1b7d9e solid;
+margin-right: 10px; 
+display: inline-block;
+}
