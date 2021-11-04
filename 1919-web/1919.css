@@ -97,24 +97,32 @@ input, select {
 */
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
 header{
-width: 100%;
-background-color: #1CB7EB;
+	width: 100%;
+	background-color: #1CB7EB;
 }
+body{
+	background-color: #000000;
+}
+
 div, span, a{
-font-family: 'Zilla Slab Highlight', cursive;
-font-size: 22px;
-color: #eb3461;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 22px;
+	color: #eb3461;
 }
+
 a:hover{
-color:#ebe04b;
+	color:#ebe04b;
 }
+
 ul{
 	list-style-type: circle;
 }
+
 #right-text{
 	float: right;
 	display: inline-block;
 }
+
 header #right-text li{
 	float: left;
 	margin-left: 30px;
@@ -123,9 +131,10 @@ header #right-text li{
 	margin: 0 auto;
 	display: table;
 }
+
 #center-text{
-width: 50%;
-display: inline-block;
+	width: 50%;
+	display: inline-block;
 }
 
 span ul{
@@ -133,27 +142,105 @@ span ul{
 	position: relative;
     top: -220px;
 }
+
 .banner1{
 	width: 100%;
 	margin: 0 auto;
 }
+
 #Travel-company{
-width: 250px;
+	width: 250px;
     display: inline-block;
 }
+
 #connection-panel{
 	text-align: justify;
 	width: 100%;
 	margin: 0;
-	display: inline-block;
-	
+	margin-bottom: 30px;
+	background-color: #9e1336;
 }
+
 .connections{
-float: right;
-text-float: left;
-padding: 4px;
-background-color: #1cb7eb;
-border: #1b7d9e solid;
-margin-right: 10px; 
-display: inline-block;
+	float: right;
+	padding: 4px;
+	background-color: #1cb7eb;
+	margin: 0 auto;
+	border: #1b7d9e solid;
+	margin-right: 10px; 
+	display: inline-block;
+}
+
+#mid-content{
+	float: left;
+	background-color: #ebe04b;
+	margin-top: 7px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+}
+
+.left-text{
+	text-align: justify;
+	border-bottom: 3px solid #1b7d9e;
+	color: #9e1336;
+	padding-bottom: 4px;
+}
+
+#left-alignment{
+/*float: left;*/
+	display: inline-block;
+	margin: 10px;
+	width: 400px;
+	height: 388px;
+	position: relative;
+}
+
+.dif-lk{
+	color: #9e1336;
+}
+
+.dif-lk:hover{
+	color: #eb3461;
+}
+
+#title-middle{
+	font-size: 24px;
+	color: #9e1336;
+}
+
+#middle-content{
+	border-left: 3px solid #1b7d9e;
+	display: inline-block;
+	margin-top: 7px;
+	width: 400px;
+	position: relative;
+	padding: 4px;
+	background-color: #1cb7eb;
+	color: #eb3461;
+	text-align: justify;
+	height: 400px;
+}
+
+#bl-lk:hover{
+	color: #9e1336;
+}
+#title-right{
+	color: #1b7d9e;
+	font-size: 24px;
+}
+
+#right-content{
+	margin-top: 7px;
+	display: inline-block;
+	width: 400px;
+	position: absolute;
+	padding: 4px;
+	height: 400px;
+	background-color: #ebe04b;
+	border-left: 3px solid #1b7d9e;
+	text-align: justify;
+}
+
+#rg-lk:hover{
+	color: #1b7d9e;
 }

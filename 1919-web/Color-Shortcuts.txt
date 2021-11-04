@@ -1,0 +1,5 @@
+#9e1336 - dark red
+#ebe04b - yellow
+#eb3461 - pink
+#1cb7eb - light blue
+#1b7d9e - dark blue
