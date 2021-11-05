@@ -244,3 +244,22 @@ span ul{
 #rg-lk:hover{
 	color: #1b7d9e;
 }
+
+#bottom-content{
+	margin: 20px;
+	margin-left: 400px;
+	margin-right: 300px;
+	background-color: #ebe04b;
+	width: 570px;
+	height: 30px;
+}
+
+.bt-lk{
+	border-right: 3px solid #1b7d9e;
+	padding: 7px;
+}
+
+.bt-lk:hover{
+	color: #9e1336;
+}
+
