@@ -255,11 +255,34 @@ span ul{
 }
 
 .bt-lk{
-	border-right: 3px solid #1b7d9e;
+	border-right: 3px solid #000000;
 	padding: 7px;
 }
 
 .bt-lk:hover{
 	color: #9e1336;
 }
+footer{
+	font-size: 14px;
+}
 
+.ft-righ-ct{
+	float: right;
+	padding: 7px;
+}
+
+#ft-left-ct{
+	float: left;
+	padding: 7px;
+}
+
+#ft-content{
+	background-color: #1cb7eb; 
+	height: 80px;
+	font-size: 14px;
+}
+
+#final-line{
+	background-color: #9e1336;
+	height: 30px;
+}
