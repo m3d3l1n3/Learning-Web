@@ -172,11 +172,11 @@ span ul{
 }
 
 #mid-content{
-	float: left;
 	background-color: #ebe04b;
-	margin-top: 7px;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
+	width: 100%;
+	margin-top: 50px;
 }
 
 .left-text{
@@ -187,12 +187,11 @@ span ul{
 }
 
 #left-alignment{
-/*float: left;*/
+	background-color: #ebe04b;
+	float: left;
 	display: inline-block;
 	margin: 10px;
-	width: 400px;
-	height: 388px;
-	position: relative;
+	width: 30%;
 }
 
 .dif-lk{
@@ -211,14 +210,12 @@ span ul{
 #middle-content{
 	border-left: 3px solid #1b7d9e;
 	display: inline-block;
-	margin-top: 7px;
-	width: 400px;
-	position: relative;
+	width: 30%;
 	padding: 4px;
 	background-color: #1cb7eb;
 	color: #eb3461;
 	text-align: justify;
-	height: 400px;
+	float: left;
 }
 
 #bl-lk:hover{
@@ -230,15 +227,14 @@ span ul{
 }
 
 #right-content{
-	margin-top: 7px;
 	display: inline-block;
-	width: 400px;
-	position: absolute;
+	width: 30%;
 	padding: 4px;
-	height: 400px;
 	background-color: #ebe04b;
 	border-left: 3px solid #1b7d9e;
 	text-align: justify;
+	float: left;
+	margin-top: -75px;
 }
 
 #rg-lk:hover{
@@ -252,6 +248,8 @@ span ul{
 	background-color: #ebe04b;
 	width: 570px;
 	height: 30px;
+	position: relative;
+    clear: both;
 }
 
 .bt-lk{
@@ -264,6 +262,7 @@ span ul{
 }
 footer{
 	font-size: 14px;
+	position: relative;
 }
 
 .ft-righ-ct{
@@ -285,4 +284,9 @@ footer{
 #final-line{
 	background-color: #9e1336;
 	height: 30px;
+}
+
+p,h3{
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
