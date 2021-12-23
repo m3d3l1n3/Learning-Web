@@ -147,6 +147,9 @@ span ul{
 	width: 100%;
 	margin: 0 auto;
 }
+#search{
+	type: text;
+}
 
 #Travel-company{
 	width: 250px;
@@ -228,7 +231,7 @@ span ul{
 
 #right-content{
 	display: inline-block;
-	width: 30%;
+	width: 32%;
 	padding: 4px;
 	background-color: #ebe04b;
 	border-left: 3px solid #1b7d9e;
